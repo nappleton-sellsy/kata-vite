@@ -1,0 +1,27 @@
+{
+  "name": "kata-vite",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "jest src --watchAll"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "vue": "^3.2.25",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.4",
+    "@babel/plugin-transform-modules-commonjs": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "@vitejs/plugin-vue": "^2.2.0",
+    "@vue/test-utils": "^2.0.0-rc.17",
+    "@vue/vue3-jest": "^27.0.0-alpha.4",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1",
+    "vite": "^2.8.0"
+  }
+}
